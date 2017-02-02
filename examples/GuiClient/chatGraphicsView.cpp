@@ -26,7 +26,8 @@
 #include "chatGraphicsScene.h"
 #include <QResizeEvent>
 
-chatGraphicsView::chatGraphicsView(QWidget* parent) : QGraphicsView(parent)
+chatGraphicsView::chatGraphicsView(QWidget* parent) : QGraphicsView(parent),
+    m_scene(NULL)
 {
     setAlignment(Qt::AlignHCenter|Qt::AlignTop);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);

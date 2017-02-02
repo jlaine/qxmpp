@@ -27,7 +27,7 @@
 #include "chatGraphicsView.h"
 
 chatGraphicsScene::chatGraphicsScene(QObject* parent) : QGraphicsScene(parent),
-        m_verticalPosForNewMessage(0), m_verticalSpacing(5)
+        m_verticalPosForNewMessage(0), m_verticalSpacing(5), m_boxStartLength(5)
 {
 }
 
