@@ -48,8 +48,8 @@ jobs:
         run: |
           ${env:PATH} += ";D:/a/qxmpp/qxmpp/src/Debug"
           cmake . && cmake --build .
-          ctest
-          ctest --rerun-failed --output-on-failure
-          tests/Debug/tst_qxmppattentionmanager.exe
-          tests/qxmppuploadrequestmanager/Debug/tst_qxmppuploadrequestmanager.exe
-          tests/qxmpptransfermanager/Debug/tst_qxmpptransfermanager.exe
+          #ctest
+          #ctest --rerun-failed --output-on-failure
+          D:\a\qxmpp\qxmpp\tests\Debug\tst_qxmppattentionmanager.exe
+          D:\a\qxmpp\qxmpp\tests\qxmppuploadrequestmanager\Debug\tst_qxmppuploadrequestmanager.exe
+          D:\a\qxmpp\qxmpp\tests\qxmpptransfermanager\Debug\tst_qxmpptransfermanager.exe
